@@ -1,6 +1,6 @@
 const logItems = function(array) {
-    // console.log(logItems);
-    for (let i = 0; i < array.length; i += 1) {
+
+        for (let i = 0; i < array.length; i += 1) {
         const message = `${i + 1} - ${array[i]}`;
         console.log(message);
     }
